@@ -29,7 +29,7 @@ export default function Header() {
                 <div className='tits px-3 py-3 md:pt-14'>Home</div>
                 <NavLink to="/About" className='tits px-3 py-3 md:pt-14'>About</NavLink>
                 <div className='tits px-3 py-3 md:pt-14'>Contact</div>
-                <div className='tits px-3 py-3 md:pt-14'>Our top three</div>
+                <NavLink to="/T3" className='tits px-3 py-3 md:pt-14'>Our top three</NavLink>
                 <div className='tits px-3 py-3 md:pt-14'>Best in their class</div>
             </div>}
         </div >)
