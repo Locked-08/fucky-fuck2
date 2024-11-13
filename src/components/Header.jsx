@@ -20,7 +20,7 @@ export default function Header() {
         return () => window.removeEventListener('resize', handleResize);
     }, []);
     return (
-        <div className='bg-blue-800 text-white md:flex md:justify-between fixed top-0 left-0 w-screen px-7'>
+        <div className='bg-blue-800 text-white md:flex md:justify-between fixed top-0 left-0 w-screen px-7 z-50'>
             <div className='bg-blue-800 text-white flex py-10 justify-between text-xl font-bold '>
                 <NavLink to="/" className='tits px-3 py-3'>Electric scooter</NavLink>
                 <img src={beam} className="w-[50px] md:hidden" onClick={toggleNav} />
